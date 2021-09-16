@@ -13,6 +13,7 @@
 		EB9803A526F2F8CA0046FB4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB9803A326F2F8CA0046FB4E /* Main.storyboard */; };
 		EB9803A726F2F8CB0046FB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9803A626F2F8CB0046FB4E /* Assets.xcassets */; };
 		EB9803AA26F2F8CB0046FB4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB9803A826F2F8CB0046FB4E /* LaunchScreen.storyboard */; };
+		EB9803B226F2FEE70046FB4E /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9803B126F2FEE70046FB4E /* PasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB9803A626F2F8CB0046FB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB9803A926F2F8CB0046FB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB9803AB26F2F8CB0046FB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9803B126F2FEE70046FB4E /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EB98039D26F2F8CA0046FB4E /* AppDelegate.swift */,
 				EB98039F26F2F8CA0046FB4E /* SceneDelegate.swift */,
 				EB9803A126F2F8CA0046FB4E /* ViewController.swift */,
+				EB9803B126F2FEE70046FB4E /* PasswordViewController.swift */,
 				EB9803A326F2F8CA0046FB4E /* Main.storyboard */,
 				EB9803A626F2F8CB0046FB4E /* Assets.xcassets */,
 				EB9803A826F2F8CB0046FB4E /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB9803A226F2F8CA0046FB4E /* ViewController.swift in Sources */,
+				EB9803B226F2FEE70046FB4E /* PasswordViewController.swift in Sources */,
 				EB98039E26F2F8CA0046FB4E /* AppDelegate.swift in Sources */,
 				EB9803A026F2F8CA0046FB4E /* SceneDelegate.swift in Sources */,
 			);
@@ -293,10 +297,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.naoyukiudemy.Segue;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoyukiudemy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,10 +316,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.naoyukiudemy.Segue;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoyukiudemy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
